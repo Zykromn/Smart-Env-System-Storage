@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+
+    <!-- Link data -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/system.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../frameworks/bootstrap.min.css">
+
+    <!-- Anime js -->
+    <script src="../frameworks/anime.min.js"></script>
+
+    <!-- Titles -->
+    <title> Smart Env </title>
+</head>
+
+<body>
+    <div class="BM-BlackScreen"></div>
+    <div class="BM-Content">
+        <div class="BMH-Content">
+            <img src="../images/System_BurgerMenuClose.png" class="BMH-BurgerMenuClose">
+            <p class="BMH-SystemName">
+                Параметрлер Smart Env
+            </p>
+        </div>
+
+        <div class="BMM-Content">
+            <div class="BMM-Item"> Жүйе ақпараты </div>
+            <div class="BMM-Item lang"> Тілді таңдаңыз </div>
+            <div class="BMM-Item BMM-BurgerMenuClose"> Smart Env басқару тақтасына оралу </div>
+            <div class="BMM_SplitLine"></div>
+
+            <div class="BMM-Item"> SmartEnv құжаттамасы </div>
+            <div class="BMM-Item"> Біздің репозиторий </div>
+            <div class="BMM-Item"> Әзірлеуші ​​туралы </div>
+            <div class="BMM_SplitLine"></div>
+
+            <div class="BMM-Item logout" style="color: #ff0000;"> Жүйеден шығыңыз </div>
+        </div>
+
+        <div class="BMF-Content">
+            <img src="../images/System_BurgerMenuSycrollArtsLogo.png" class="BMF-Logo">
+        </div>
+    </div>
+    <header>
+        <img class="Header-BurgerMenuIcon" src="../images/System_BurgerMenu.png">
+        <p class="Header-Name"> Smart Env </p>
+    </header>
+
+    <main>
+        <div class="MD-Content">
+        </div>
+
+        <div class="MI-Content">
+        </div>
+
+        <div class="MM-Content">
+        </div>
+    </main>
+
+
+
+
+    <script>
+        const SES_UOFNameList= {
+            "d0000": "Қашықтық",
+            "d0001": "Ылғалдылық",
+            "d0002": "Температура",
+            "i0000": "Судың ағуы",
+            "i0001": "Газдың ағуы",
+            "m0000": "Жарық",
+            "m0001": "Қорытынды 1",
+            "m0002": "Қорытынды 2",
+            "m0003" : "Есік",
+            "m0004" : "Қорытынды 3"
+        }
+        const SED_UOFIdList = {
+            "d0000": "см.",
+            "d0001": "%",
+            "d0002": "C."
+        }
+        const SEI_UOFValList = {
+            "i0000": {0: "Жақсы", 1: "Ағып кету"},
+            "i0001": {0: "Жақсы", 1: "Ағып кету"}
+        }
+        const APP_LeaveText = "Жүйеден шыққыңыз келетініне сенімдісіз бе?"
+    </script>
+    <script src="../script/system.js"></script>
+</body>
+</html>

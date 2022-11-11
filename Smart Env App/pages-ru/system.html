@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+
+    <!-- Link data -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/system.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../frameworks/bootstrap.min.css">
+
+    <!-- Anime js -->
+    <script src="../frameworks/anime.min.js"></script>
+
+    <!-- Titles -->
+    <title> Smart Env </title>
+</head>
+
+<body>
+    <div class="BM-BlackScreen"></div>
+    <div class="BM-Content">
+        <div class="BMH-Content">
+            <img src="../images/System_BurgerMenuClose.png" class="BMH-BurgerMenuClose">
+            <p class="BMH-SystemName">
+                Настройки Smart Env
+            </p>
+        </div>
+
+        <div class="BMM-Content">
+            <div class="BMM-Item indev"> Информация о системе </div>
+            <div class="BMM-Item lang"> Выбрать язык </div>
+            <div class="BMM-Item BMM-BurgerMenuClose"> Вернутся к панели управления Smart Env </div>
+            <div class="BMM_SplitLine"></div>
+
+            <div class="BMM-Item indev"> Документация Smart Env </div>
+            <a class="BMM-Item" href="https://github.com/Zykromn/Smart-Env-System-Storage"> Наш репозиторий </a>
+            <div class="BMM-Item indev"> О разработчике </div>
+            <div class="BMM_SplitLine"></div>
+
+            <div class="BMM-Item logout" style="color: #ff0000;"> Выйти из системы </div>
+        </div>
+
+        <div class="BMF-Content">
+            <img src="../images/System_BurgerMenuSycrollArtsLogo.png" class="BMF-Logo">
+        </div>
+    </div>
+    <header>
+        <img class="Header-BurgerMenuIcon" src="../images/System_BurgerMenu.png">
+        <p class="Header-Name"> Smart Env </p>
+    </header>
+
+    <main>
+        <div class="MD-Content">
+        </div>
+
+        <div class="MI-Content">
+        </div>
+
+        <div class="MM-Content">
+        </div>
+    </main>
+
+
+
+
+    <script>
+        const SES_UOFNameList= {
+            "d0000": "Дистанция",
+            "d0001": "Влажность",
+            "d0002": "Температура",
+            "i0000": "Утечка воды",
+            "i0001": "Утечка газа",
+            "m0000": "Свет",
+            "m0001": "Вывод 1",
+            "m0002": "Вывод 2",
+            "m0003" : "Дверь",
+            "m0004" : "Вывод 3"
+        }
+        const SED_UOFIdList = {
+            "d0000": "см.",
+            "d0001": "%",
+            "d0002": "C."
+        }
+        const SEI_UOFValList = {
+            "i0000": {0: "В норме", 1: "Утечка"},
+            "i0001": {0: "В норме", 1: "Утечка"}
+        }
+        const APP_LeaveText = "Вы уверены, что хотите выйти?"
+    </script>
+    <script src="../script/system.js"></script>
+</body>
+</html>

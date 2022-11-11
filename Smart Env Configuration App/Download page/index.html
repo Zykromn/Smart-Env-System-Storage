@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+
+    <!-- Style -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        header{
+            color: #ffffff;
+            height: 8vh;
+            background-color: #028699;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .Header-Name{
+            margin: 0 0 0 3vw;
+            font-size: 3vh;
+        }
+        main{
+            color: white;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+        }
+        .Main-Content{
+            font-size: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 70%;
+            height: 70%;
+            background-color: grey;
+            border-radius: 30px;
+        }
+        .Main-Header{
+            font-weight: 900;
+            color: #ffffff;
+            font-size: 3vh;
+            text-align: center;
+        }
+        .Link-Content{
+            display: flex;
+            flex-shrink: 10;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 3vh;
+            width: 40vw;
+            border-radius: 0.5vh;
+            border: 1px #ffffff solid;
+            color: #ffffff;
+            background-color: #0acae7;
+            font-size: 4vh;
+            font-weight: bolder;
+        }
+        .Link-Content:hover{
+            transition: 1s;
+            box-shadow: #026573 20px 20px 20px;
+        }
+        .Link-Content:not(:hover){
+            transition: 1s;
+            box-shadow: #014f59 7px 7px 7px;
+        }
+    </style>
+
+    <!-- Title -->
+    <title> Smart Env Configuration App </title>
+</head>
+<body>
+    <header>
+        <p class="Header-Name"> Smart Env </p>
+    </header>
+
+    <main>
+        <div class="Main-Content">
+            <h1 class="Main-Header"> Smart Env Configuration App (v. 0.1) </h1>
+
+            <a class="Link-Content" href="./../SmartEnv-Configuration-App.zip" download=""> DOWNLOAD &nbsp СКАЧАТЬ &nbsp ЖҮКТЕП </a>
+        </div>
+    </main>
+</body>
+</html>

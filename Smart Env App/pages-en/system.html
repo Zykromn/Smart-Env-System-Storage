@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta data -->
+    <meta charset="UTF-8">
+
+    <!-- Link data -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/system.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../frameworks/bootstrap.min.css">
+
+    <!-- Anime js -->
+    <script src="../frameworks/anime.min.js"></script>
+
+    <!-- Titles -->
+    <title> Smart Env </title>
+</head>
+
+<body>
+    <div class="BM-BlackScreen"></div>
+    <div class="BM-Content">
+        <div class="BMH-Content">
+            <img src="../images/System_BurgerMenuClose.png" class="BMH-BurgerMenuClose">
+            <p class="BMH-SystemName">
+                Smart Env Options
+            </p>
+        </div>
+
+        <div class="BMM-Content">
+            <div class="BMM-Item"> Information about system </div>
+            <div class="BMM-Item lang"> Select language </div>
+            <div class="BMM-Item BMM-BurgerMenuClose"> Back to Smart Env Control Panel </div>
+            <div class="BMM_SplitLine"></div>
+
+            <div class="BMM-Item"> Smart Env documentation </div>
+            <div class="BMM-Item"> Our repository </div>
+            <div class="BMM-Item"> About the developer </div>
+            <div class="BMM_SplitLine"></div>
+
+            <div class="BMM-Item logout" style="color: #ff0000;"> Log out of the system </div>
+        </div>
+
+        <div class="BMF-Content">
+            <img src="../images/System_BurgerMenuSycrollArtsLogo.png" class="BMF-Logo">
+        </div>
+    </div>
+    <header>
+        <img class="Header-BurgerMenuIcon" src="../images/System_BurgerMenu.png">
+        <p class="Header-Name"> Smart Env </p>
+    </header>
+
+    <main>
+        <div class="MD-Content">
+        </div>
+
+        <div class="MI-Content">
+        </div>
+
+        <div class="MM-Content">
+        </div>
+    </main>
+
+
+
+
+    <script>
+        const SES_UOFNameList = {
+            "d0000": "Distance",
+            "d0001": "Humidity",
+            "d0002": "Temperature",
+            "i0000": "Water leak",
+            "i0001": "Gas leak",
+            "m0000": "Lamp",
+            "m0001": "Output 1",
+            "m0002": "Output 2",
+            "m0003" : "Door",
+            "m0004" : "Output 3"
+        }
+        const SED_UOFIdList = {
+            "d0000": "cm.",
+            "d0001": "%",
+            "d0002": "C."
+        }
+        const SEI_UOFValList = {
+            "i0000": {0: "Normal", 1: "Leak detected"},
+            "i0001": {0: "Normal", 1: "Leak detected"}
+        }
+        const APP_LeaveText = "Are you sure you want to log out?"
+    </script>
+    <script src="../script/system.js"></script>
+</body>
+</html>
